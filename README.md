@@ -7,6 +7,11 @@ Processing : The audio file has two speakers speaking to each other.  The input 
 Outputs : Two audio files in wav format.  Each audio file should have the speech of one speaker alone. 
 </br>
 </br>
+Following link contains information about various techniques/APIs/Frameworks available for Speaker Diarization:
+</br>
+=> https://wq2012.github.io/awesome-diarization/
+</br>
+
 Used : </br>
 (1) https://docs.deepaffects.com/docs/speaker-diarization-api.html </br>
 url = "https://proxy.api.deepaffects.com/audio/generic/api/v2/async/diarize" </br>
