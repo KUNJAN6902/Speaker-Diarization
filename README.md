@@ -5,7 +5,7 @@ Later based on diarization time offsets, I am creating two seperate audio files 
 
 Used : </br>
 (1) https://docs.deepaffects.com/docs/speaker-diarization-api.html </br>
-url = "https://proxy.api.deepaffects.com/audio/generic/api/v2/async/diarize"
+url = "https://proxy.api.deepaffects.com/audio/generic/api/v2/async/diarize" </br>
 querystring = {"apikey":"XXXX", "webhook":"https://webhook.site/f5540c7c-b0ce-4a8c-9ad5-1aa1a8e03e90"}
 </br>
 </br>
