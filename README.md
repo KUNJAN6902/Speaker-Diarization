@@ -1,7 +1,11 @@
 # Speaker-Diarization
-
-Here, I take an audio file as input and to speech-to-text transcription with diarization.  </br>
-Later based on diarization time offsets, I am creating two seperate audio files from original audio file as input.
+</br>
+Inputs : One audio files in wav format
+</br>
+Processing : The audio file has two speakers speaking to each other.  The input audio file should be split into two output audio file – in such a manner that each audio file has the audio speech of only one speaker. 
+</br>
+Outputs : Two audio files in wav format.  Each audio file should have the speech of one speaker alone. 
+</br>
 
 Used : </br>
 (1) https://docs.deepaffects.com/docs/speaker-diarization-api.html </br>
