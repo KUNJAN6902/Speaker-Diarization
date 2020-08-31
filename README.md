@@ -25,10 +25,15 @@ querystring = {"apikey":"XXXX", "webhook":"https://webhook.site/f5540c7c-b0ce-4a
 (2) from pydub import AudioSegment
 
 ## Part-2
-</br>
-Input: Audio file, in mp4 format, of a call center recording. 
-</br>
+<br/>
+Input: Audio file, in mp4 format, of a call center recording.  
+<br/>
 Recording Details : The recording has been done in stereo-channel format i.e. if you listen to this recording, using your headphones, you will see that one part of the conversation would be audible on your left ear – while the other part on your right ear.  
-</br>
+<br/>
 Output :  The recording has to be split based on the two channels it has been recorded in.  As an output we need two audio recordings.  One recording will have the left channel input and the other output recording will have the right channel input.  It is important that both outputs are in WAV format.  
-</br>
+<br/>
+<br/>
+=> Function used to split file Channel wise<br/>
+#Splitting Stereo Channels to Mono Channels<br/>
+phone_call_channels = stereo_phone_call.split_to_mono()
+<br/>
